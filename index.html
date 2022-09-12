@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between responsive design and adaptive design</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+    
+    <!-- NAVBAR -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+  <div class="container ">
+    <a class="navbar-brand" href="#"><span class="h3 fw-bold ">UBCODES_</span> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-link active px-lg-4" aria-current="page" href="#home">Home</a>
+        <a class="nav-link px-lg-4" href="#about">About</a>
+        <a class="nav-link px-lg-4" href="#contact">Contact</a>
+        <a class="nav-link px-lg-4" href="https://ubcodes.com/">Personal Website</a>
+        <a class="nav-link px-lg-4" href="https://nuevicsutech.online/">Nuevicsu</a>
+      </div>
+    </div>
+  </div>
+</nav>
+        <div class="container">
+    <!-- NAVBAR -->
+
+    <!-- INTRO -->
+    <div class="">
+      
+        <section class="px-lg-5  main-content">
+            <div class="container ms-auto">
+              <img src="./images/adap-vs-res.webp" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block mb-5">
+            <h1 class="title" id="home">Difference between Responsive  Design and Adaptive Design</h1>
+            <div class="author">
+                <img  class="author-img" src="images/Screenshot 2022-09-07 221145.png" alt="" class="rounded-cirlce-me">
+                <p style="padding:2%;">BY ETOP - ESSIEN EMMANUELLA, UPDATED ON SEPTEMBER 9, 2022</p>
+            </div>
+            <div class="intro" id="intro">
+                <p>In this article, we will discuss the pros and cons of responsive design and adaptive design. <br>We will exlplore the following : </p>
+                <p> ⁜<a href="#responsive-design"> The definition of Responsive Design</a> </p>
+                <p>⁜<a href="#adaptive-design"> The definition of Adaptive Design</a></p>
+                <p>⁜<a href="#comparison"> The Comparison between Responsive and Adaptive  Design</a></p>
+                <p>⁜<a href="#prosandconsresponsive"> The Advantages and Disadvantages of Responsive Design</a></p>
+                <p>⁜<a href="#prosandconsadaptive"> The Advantages and Disadvantages of Adaptive Design</a></p>
+                <p>⁜<a href="#conclusion"> Conclusion</a></p>
+            </div>
+            
+        </div>
+        </section>
+    </div>
+    <!-- INTRO -->
+
+    <!-- DEFINITON OF RESPONSIVE AND ADATIVE DESIGN -->
+    
+    <div class=" container">
+      <section class="px-lg-5 ">
+       <div class="responsive-design pt-5" id="responsive-design">
+              <a href="#intro"><h2 class="heading alert" i>Responsive Design</h2></a>
+              <p class="definition-content">A website created with responsive disign uses just one layout for a webpage and "responsively" adjusts to better fit the user's screen, whether it's a desktop, a laptop, a tablet or mobile phone. <br> Responsive Design makes use of media queries to target breakpoints which scale images, wraptext & adjust layouts. HTML & CSS are used in responsive design.  </p>
+              <div>
+                 Examples of websites that make use of responsive design : <br> ⁕ Slack <br> ⁕ Dropbox <br> ⁕ Github <br>⁕ Shopify <br>⁕ Dribble 
+</div>
+
+                 <div class="mx-auto d-inline img-fluid responsive-img-div">
+                  <img src="./images/responsive-image1.jpg" alt=""  class="img-fluid img-thumbnail rounded my-4  d-inline  responsive-img " >
+                  <img src="./images/responsive-image2.jpg" alt=""  class="img-fluid img-thumbnail rounded my-4  d-inline responsive-img">
+                 </div>
+            </div>
+
+        <div class="pt-5" id="adaptive-design" >
+          <a href="#intro"> <h2 class="heading alert" >Adaptive Design</h2></a>
+          <p>A website created with adaptive design has different layouts of the webpage for the differnt devices. This means that, there are multiple versions of a web page to fit someone's device as opposed to a single, static page (and reorders or resizes content) across all devices. <br>Not only do adaptive design make use of css media queries they also make use of JavaScript. This is done to change the site's HTML markup based on  various device capabilities. </p>
+          <div>
+          Examples of websites that make use of Adaptive Design : <br>⁕  Apple <br> ⁕ Amazon
+          </div>
+          <img src="./images/adaptive-design1.png" alt="" class="responsive-img img-fluid img-thumbnail mx-auto my-5">
+        </div>
+    </section>
+    </div>
+    <!--  DEFINITON OF RESPONSIVE AND ADATIVE DESIGN -->
+
+
+    <!-- TABLE  -->
+    
+
+    <div class= "container" id="comparison">
+      <section class="px-lg-5">
+        <div class="table-container pt-5">
+          <a href="#intro"><h2 class="heading alert " >The Comparison between Responsive and Adaptive Design</h2></a>
+          <table class="table ">
+            <thead>
+              <tr>
+                <th>S/N</th>
+                <th>Comparison</th>
+                <th>Responsive Design</th>
+                <th>Adaptive Design</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr >
+                <td data-label="S/N">1</td>
+                <td data-label="Comparison">Layout</td>
+                <td data-label="Responsive Design">Layout is determined by the visitor's browser window.</td>
+                <td data-label="Adaptive Design">Layout is determined by the backend.</td>
+              </tr>
+              
+              
+               <tr>
+                <td data-label="S/N">2</td>
+                <td data-label="Comparison">Load Time</td>
+                <td data-label="Responsive Design">The load time is not as fast as adaptive design.</td>
+                <td data-label="Adaptive Design">It loads faster.</td>
+              </tr>
+               <tr>
+                <td data-label="S/N">3</td>
+                <td data-label="Comparison">Difficulty</td>
+                <td data-label="Responsive Design">It involves extra attention to the site's css and organisation to ensure it is functional on all screen sizes.</td>
+                <td data-label="Adaptive Design">It may be more difficult in the sense that you'll need different layout for devices.</td>
+              </tr>
+               <tr>
+                <td data-label="S/N">4</td>
+                <td data-label="Comparison">Flexibility</td>
+                <td data-label="Responsive Design">It is more flexible as it requires less maintenance.</td>
+                <td data-label="Adaptive Design">It is less flexible. If there is a new screen size in the market, adaptive websites require more occassional maintenance.</td>
+              </tr>
+               <tr>
+                <td data-label="S/N">5</td>
+                <td data-label="Comparison">SEO friendliness</td>
+                <td data-label="Responsive Design">Google recommends and rewards sites that use responsive design.</td>
+                <td data-label="Adaptive Design">SEO finds adaptive website challenging.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <!-- TABLE  -->
+
+    <!-- ADVANTAGES AND DISADVANTAGES OF RESPONSIVE DESIGN AND ADAPTIVE -->
+    <div class=" container pt-5" id="prosandconsresponsive">
+      <section class="px-lg-5 ">
+        <div>
+        <a href="#intro"><h2 class="heading alert">Advantages and Disadvantages of Responsive Design</h2></a>
+        <h3 class="sub-heading"><u><i>Pros</i></u></h3>
+        <p>✓ It is search engine friendly.</p>
+        <p>✓ It is flexible. </p>
+        <p>✓ It takes less time and work to create and maintain.</p>
+        <p>✓ It is easier to implement.</p>
+        <p>✓ It is widely used.</p>
+        <p>✓ It is less expensive.</p>
+        <p>✓ It is very good for small to medium sized company.</p>
+        <p>✓ It ideal for new business.</p>
+   
+       
+          <h3 class="sub-heading"><u><i>Cons</i></u></h3>
+          <p>✕ Developers would do more coding</p>
+          <p>✕ It takes more time for the page to load</p>
+          <p>✕ The Elements can move around.</p>
+          <p>✕ It is difficult to intergrate advertisement into a responsive design website - Ads are to accomodate all resolutions. Therefore, asthe site adjusts to specific screeen sizes, the ads may not properly configure.</p>
+      </section>
+      </div>
+      </div>
+
+      <div class=" container" id="prosandconsadaptive">
+      <a href="#intro"><h2 class="heading alert">Advantages and Disadvantages of adaptive Design</h2></a> 
+        <h3 class="sub-heading"><u><i>Pros</i></u></h3>
+        <p>✓ The page loads faster.</p>
+        <p>✓ Adaptive design intergrates advertising. </p>
+        <p>✓ It has better user experience.</p>
+        <p>✓ It is best for website enhancement.</p>
+        <p>✓ It is best for speed dependent sites.</p>
+        <p>✓ It is best for complex sites.</p>
+        <p>✓ It is best for speed dependent sites.</p>
+
+   
+       
+          <h3 class="sub-heading"><u><i>Cons</i></u></h3>
+          <p>✕ It takes a lot of effort to create due to the number of technical aspects.</p>
+          <p>✕ It is not widely used.</p>
+          <p>✕ It is complex to modify.</p>
+         
+      </div>
+      
+      <div class="container" id="conclusion">
+       <a href="#intro"><h2 class="heading alert">Conclusion</h2></a> 
+        <p> More technologies are being introduced to the market. Ensure you understand and plan for your needs, goals and budget. This way you are more clear on what design to choose.</p>
+      </div>
+    <!-- ADVANTAGES AND DISADVANTAGES OF RESPONSIVE AND ADAPTIVE DESIGN  -->
+
+
+      <!-- ABOUT  -->
+      <section id="about" class="about">
+        <div class="container ">
+        <div class=" ">
+          <div class="  ">
+            <div class="bg-base p-4 rounded-4 shadow-effect about about-col  ">  
+            <img src="./images/Screenshot 2022-09-07 221145.png" alt="" class="rounded-circle author-img">
+            <div >
+              <span><h5 class="pt-3 ">Etop - Essien Emmanuella Ubokabasi</h5></span>
+              Etop - Essien Emmanuella
+              <p style="font-size: 14px;">Etop - Essien Emmanuella is a freelance web developer, UI/UX designer. She has and continues to work on a number of projects. Some of which may include - ubcodes.com , drumkit.me , blog posts, Nuevicsu and other websites.  </p>
+               </div>
+            
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </section>
+      <!-- ABOUT  -->
+
+
+    <!-- FOOTER  -->
+    <footer class="py-5 px-lg-5">
+      <div class="container">
+       <div class="row gy-4 justify-content-between">
+       <div class="col-auto">
+        
+      </div>
+      <div class="col-auto" id="contact">
+        <form action="https://formsubmit.co/etopessienemmanuella@gmail.com" method="POST" class="row g-lg-3 gy-3 pb-5">
+          <img src="./images/Screenshot 2022-09-07 221145.png" class="author-img" alt="">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-group col-12">
+            <input type="text" placeholder="What's your question, suggestion or inquiry" name="question" class="form-control">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" placeholder="First Name" name="First_name" class="form-control">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="email" placeholder="Email Address" name="email" class="form-control" required>
+          </div>
+          <div>
+            <button type="submit"  class="btn btn-brand"> Inform Ella</button>
+          </div>
+        </form>
+        <div class="social-icons">
+           <a href="https://twitter.com/ubcodes1_" target="_blank"><i class="lab la-twitter"></i></a>
+              <a href="https://www.instagram.com/ubcodes_/" target="_blank"><i class="lab la-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/emmanuella-etop-essien-b41846227/" target="_blank"><i class="lab la-linkedin-in"></i></a>
+              <a href="https://web.facebook.com/emmanuella.etopessien.5" target="_blank"><i class="lab la-facebook" ></i></a>
+              <a href="https://github.com/UB30-4" target="_blank"><i class="lab la-github"></i></a>
+             
+        </div>
+         
+      </div>
+      
+       </div>
+      
+      </div>
+       <p class="mb-0 mt-4 p-2" style="font-size: 12px;">© Etop - Essien Emmanuella Ubokabasi </p>
+    </footer>
+    </div>
+    <!-- FOOTER  -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
